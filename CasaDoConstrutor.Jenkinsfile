@@ -15,11 +15,9 @@ pipeline {
                 script {
                     echo "teste :D"                        
                     echo "XPTO: $XPTO"
-                    }
                 }
             }
         }
-
     }
     post{
         // always{
