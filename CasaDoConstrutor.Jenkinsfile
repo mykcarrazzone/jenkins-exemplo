@@ -3,7 +3,7 @@ pipeline {
         label 'MASTER'
     }
     parameters {
-            string(name: 'teste', defaultValue: "Revenda360QAS", description: 'Parametro teste.')
+            string(name: 'teste', defaultValue: "TESTE", description: 'Parametro teste.')
             booleanParam(name: 'Verbose', defaultValue: false, description: 'Verbose')
     }
     environment {
